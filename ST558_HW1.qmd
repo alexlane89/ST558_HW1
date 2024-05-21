@@ -1,0 +1,36 @@
+---
+title: "Initial Thoughts on Data Science"
+author: "Charles Lane"
+format: html
+editor: visual
+---
+
+# How Do I View Data Science?
+
+  A Data Scientist is focused on collecting, organizing, and structuring data from multiple sources into a readable and/or usable format. Once data has been structured, a data scientist can then analyze the data, with the goal of generating inferences for future use.
+  
+  There is a large overlap between data science and statistics, but my current impression is that statistics is focused more on the analysis of data, and generating conclusions based on that data. First, both data scientists and statisticians obviously are interested in the collection and cleaning of data for analysis. It does seem like the emphasis of data engineering, i.e. structuring processes to store data in a consistent manner and location, is on the practice of getting data to a desirable state, or a state in which it can be analyzed. The Statistician, however, seems most focused on drawing conclusions and requires higher levels of knowledge of the data context or domain. It is this analysis and prior knowledge which excites me most about focusing in the Statistics area. Making data usable / readable is valuable, but not particularly exciting to me on its own terms. Drawing insights from census data, or manufacturing runs, however, is generally what motivates me to want to understand both data science and statistics better. The range of applications are impressive, and are what I'm most interested in exploring.
+
+# Exploring the 'iris' dataset
+Create an object ("y") from the iris dataset. 
+
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+## Attributes of the dataset
+How can we describe the object y? What is its class? Type? Structure?
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+## Plot of y
+Finally, display a plot of y for reference
+
+```{r}
+#| echo: false
+plot(y)
+```
+

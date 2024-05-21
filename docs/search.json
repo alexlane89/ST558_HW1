@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "ST558_HW1.html",
+    "href": "ST558_HW1.html",
+    "title": "Initial Thoughts on Data Science",
+    "section": "",
+    "text": "A Data Scientist is focused on collecting, organizing, and structuring data from multiple sources into a readable and/or usable format. Once data has been structured, a data scientist can then analyze the data, with the goal of generating inferences for future use.\nThere is a large overlap between data science and statistics, but my current impression is that statistics is focused more on the analysis of data, and generating conclusions based on that data. First, both data scientists and statisticians obviously are interested in the collection and cleaning of data for analysis. It does seem like the emphasis of data engineering, i.e. structuring processes to store data in a consistent manner and location, is on the practice of getting data to a desirable state, or a state in which it can be analyzed. The Statistician, however, seems most focused on drawing conclusions and requires higher levels of knowledge of the data context or domain. It is this analysis and prior knowledge which excites me most about focusing in the Statistics area. Making data usable / readable is valuable, but not particularly exciting to me on its own terms. Drawing insights from census data, or manufacturing runs, however, is generally what motivates me to want to understand both data science and statistics better. The range of applications are impressive, and are what I’m most interested in exploring."
+  },
+  {
+    "objectID": "ST558_HW1.html#attributes-of-the-dataset",
+    "href": "ST558_HW1.html#attributes-of-the-dataset",
+    "title": "Initial Thoughts on Data Science",
+    "section": "Attributes of the dataset",
+    "text": "Attributes of the dataset\nHow can we describe the object y? What is its class? Type? Structure?\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y         : num [1:512] 0.00023 0.000259 0.000293 0.000329 0.00037 ...\n $ bw        : num 0.274\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Sepal.Length)\n $ data.name : chr \"iris$Sepal.Length\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\""
+  },
+  {
+    "objectID": "ST558_HW1.html#plot-of-y",
+    "href": "ST558_HW1.html#plot-of-y",
+    "title": "Initial Thoughts on Data Science",
+    "section": "Plot of y",
+    "text": "Plot of y\nFinally, display a plot of y for reference"
+  }
+]
